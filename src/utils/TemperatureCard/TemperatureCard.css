@@ -1,0 +1,40 @@
+.temperature-card-wrapper {
+    width: 80%;
+    padding-top: 50px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.location-time-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.temperature-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgb(234, 234, 234, 0.2);
+}
+
+.card-text {
+    color: white;
+}
+
+.card-location-title {
+    font-size: 23px;
+}
+
+.card-location-text {
+    font-size: 14px;
+    color: lightgray;
+}
+
+.card-temperature-value {
+    font-family: "Urbanist";
+    font-size: 50px;
+}

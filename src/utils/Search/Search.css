@@ -1,0 +1,53 @@
+.search-container {
+    border: 1px solid lightgray;
+    width: 330px;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding: 8px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.search-input {
+  border: none;
+  width: 95%;
+  padding-left: 10px;
+  height: 100%;
+  font-family: "Urbanist";
+  background: transparent;
+  font-size: 15px;
+}
+
+.search-input:focus {
+    outline: none;
+}
+
+.search-result-list {
+  z-index: 100;
+  position: absolute;
+  background-color: white;
+  width: 330px;
+  border-radius :5px;
+  box-shadow: 10px 10px 10px 0.8px lightgray;
+  height: 300px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.search-result-list li {
+  list-style: none;
+  padding: 10px;
+  border-bottom: 1px solid lightgray;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  .search-container {
+    width: 100%;
+  }
+  .search-result-list {
+    width: 90%;
+    margin: auto;
+  }
+}

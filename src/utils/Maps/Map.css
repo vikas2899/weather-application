@@ -1,0 +1,17 @@
+.leaflet-container {
+    height: 250px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .leaflet-container {
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    .leaflet-container {
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,54 @@
+.astronomy-card-wrapper {
+    width: 85%;
+    padding-top: 50px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.astronomy-card-title {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.astronomy-card-row {
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background: rgba(72, 79, 204, 0.13);
+    border-radius: 8px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.8px);
+    -webkit-backdrop-filter: blur(7.8px);
+    border: 1px solid rgba(72, 79, 204, 1);
+    margin-bottom: 10px;
+}
+
+.astronomy-card-col {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.astronomy-card-col-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 10px;
+}
+
+.astronomy-card-col {
+    color: white;
+}
+
+.astronomy-card-col .title {
+    color: lightgray;
+}
+
+.astronomy-card-col .time {
+    color: white;
+    font-size: 20px;
+}

@@ -1,0 +1,36 @@
+.overview-container {
+    margin-top: 8%;
+}
+
+.overview-title-container {
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.overview-title {
+    color: #192749;
+    font-weight: bold;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.overview-row {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .overview-row {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    .overview-row {
+        display: flex;
+        flex-direction: column;
+    }
+}
